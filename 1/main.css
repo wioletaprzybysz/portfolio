@@ -82,6 +82,7 @@ form{
 .employee-list li{
    background-color: #34495E; 
    border: 0.2px solid #ffffff;
+   border-bottom: none;
    padding: 0 10px;
 }
 

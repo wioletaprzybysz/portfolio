@@ -5,4 +5,6 @@ addBtn.addEventListener("click", function(){
     var input = document.querySelector(".employee-name-input");
     li.innerHTML = input.value;
     list.appendChild(li);
+    
+   
 }), (false);
