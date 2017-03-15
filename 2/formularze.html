@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+        <title>Formularze</title>
+    </head>
+<body>
+    <form name="first">
+        Wpisz swoje nazwisko:<br>
+        <input type="text" name="text1">
+        <input type="button" name="button1" value="Test" onClick="test1(this.form)">
+        <p>
+            Wpisz adres swojej poczty elektronicznej:<br>
+            <input type="text" name="text2">
+            <input type="button" name="button2" value="Test" onClick="test2(this.form)">
+        </p>
+    </form>
+    <form method=POST action="mailto:przybyszwioleta@gmail.com">
+        <h3>Czy ta strona podoba Ci się?</h3>
+        <input name="choice" type="radio" value="1">Zupełnie nie.<br>
+        <input name="choice" type="radio" value="2" checked>Strata czasu.<br>
+        <input name="choice" type="radio" value="3">Najgorsze badziewie w całym Internecie.<br><br>
+        <input name="submit" type="submit" value="Wyślij odpowiedź">
+     </form>
+    <script src="form.js"></script>
+</body>
+</html>
+    
