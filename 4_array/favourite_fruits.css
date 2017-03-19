@@ -1,0 +1,16 @@
+body {
+    font-family: Verdana, sans-serif;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.addBtn {
+    background-color: #6ab5e4;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+ }
+.addBtn:hover {
+    background-color: #3f8cbc;
+}
