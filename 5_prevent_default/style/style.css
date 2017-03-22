@@ -77,9 +77,6 @@ h3 {
 	font-size: 18px;
 }
 
-.img {
-    width: 100%;
-}
 /* Kolumny, kontener, sekcje */
 /*.col-one-third {
 	width: 33.3333%;
@@ -106,9 +103,6 @@ h3 {
 		width: 50%;
 		float: left;
 	}
-    .img {
-        width: 50%;
-    }
 }
 
 section {
