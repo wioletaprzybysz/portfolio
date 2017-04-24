@@ -1,0 +1,25 @@
+.wrapper {
+    font-family: Tahoma, sans-serif;
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 600px;
+}
+
+.button {
+    color: #838281;
+	margin-bottom: 30px;
+    padding: 6px;
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 16px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #5a5a5a;
+}
