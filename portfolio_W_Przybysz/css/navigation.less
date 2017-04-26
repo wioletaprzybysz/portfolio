@@ -1,0 +1,111 @@
+.desktop-menu {
+    .dis_non;
+}
+
+.top a {
+    .none;
+    .upper;
+    .block;
+    .left-text;
+    color: @menu-hover-color;
+    
+}
+
+.main-menu {
+    position: fixed;
+    background: #ffffff;
+    overflow: hidden;
+    top: 0; 
+    width: 100%;
+    z-index: 2;
+    box-shadow: 1px 3px 3px #888888;
+}
+
+.main-menu a {
+    padding-left: 20px;
+}
+
+.main-menu li {
+    line-height: 60px;
+    padding: 0 48px 0 0;
+    list-style: none;
+    font-size: 16px;
+    display: block;
+}
+    
+#navigation a:hover {
+    color: #000000;
+}
+
+#navigation li.active a {
+    border-bottom: 3px solid #FFCC03;
+    color: #333;
+} 
+
+.button-info:hover, .button-light:hover {
+    box-shadow: 3px 5px 9px -1px rgba(0,0,0,0.66);
+}
+
+@media only screen and (min-width: 40em) {
+    
+    .top {
+        max-width: 1040px;
+    }
+    
+    .desktop-menu{
+        display: block;
+        position: fixed;
+        background: #ffffff;
+        overflow: hidden;
+        top: 0; 
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .desktop-menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    text-align: left;
+    -webkit-transition: .5s all ease-out;
+    -moz-transition: .5s all ease-out;
+    transition: .5s all ease-out;
+    border-bottom: 3px solid #ffffff;
+    color: #aaa;
+    }
+    
+    .desktop-menu ul {
+    padding: 0;
+    margin-left: 102px;
+    }
+    
+    .desktop-menu li {
+    float: left;
+    line-height: 60px;
+    position: relative;
+    padding: 0 69px;
+    list-style: none;
+    font-size: 16px;
+    }
+    
+    .desktop-menu a:hover {
+    color: #000000;
+    }
+
+    .desktop-menu li.active a {
+    border-bottom: 3px solid #FFCC03;
+    color: #333;
+    }
+    
+    #navigation-menu {
+        display: none;
+    }
+    
+    .hamburger{
+        display: none;
+    }
+    .main-menu {
+        display: none;
+    }
+}
+
