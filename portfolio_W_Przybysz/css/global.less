@@ -1,0 +1,95 @@
+body {
+    font-family: @font-family-sans-serif;
+    line-height: @line-height-base;
+}
+
+.container {
+   .center;
+    padding: 20px;
+}
+
+.button {
+    .inline-block;
+    .none;
+    .upper;
+    padding: 8px 20px;
+    margin: 16px 0;
+    color:@text-color;
+}
+
+.hamburger {
+    .fixed;
+    top: 20px;
+    right: 20px;
+    height: 30px;
+    width: 30px;
+    .hidden;
+    background: 0;
+    border: 0;
+    .cursor;
+    z-index: 1;
+}
+
+h1,h2 {
+    .upper;
+    font-weight: 300
+}
+h2 {
+    margin-bottom: 48px; 
+    .left-text;  
+    }
+
+h3 {
+    .left-text;
+    font-weight: 400;
+    background-color: @brand-warning;
+}
+
+p {
+    margin: 6px 0; 
+    font-size: 1rem;
+}
+
+section {
+    .block;
+    padding: 70px 0;
+    .auto;
+}
+
+/* wlasciwosci dla ekranów komputerów */
+@media only screen and (min-width: 400px) {
+       .button-light {
+        margin: 39px 0px 0px 200px;
+    }
+        
+        .col-one-third {
+        width: 30%;
+        float:left;
+    }
+    
+
+        .col-half {
+        width: 63%;
+        float: left;
+        padding-top: 50px;
+    }
+    .container {
+         max-width: 1040px;
+      
+    }
+       
+        section {
+        .clear;
+        .auto;
+    }
+    
+        h1 {.header-mixin(3.3rem;1.2;120px 0 0 56px)}
+        h2 {
+        .center-text;
+        font-size: 3rem;
+    }
+        h3 {
+        margin: 100px 0px 140px 369px;
+        .center-text;
+    }
+}
