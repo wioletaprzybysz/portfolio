@@ -1,0 +1,48 @@
+#aboutme {
+    background-color: @portfolio-color;
+    top: 400px;
+}
+
+#aboutme img {
+    .radius;
+    .max-width;
+}
+ 
+.button-light {
+        background-color: @brand-warning;
+        color: @text-color;
+}
+
+.button-info {
+    background-color: @brand-info;
+    margin-right: 10px;
+}
+
+.button-CV {
+    background-color: @alternate-bg;
+    color: @text-color;
+    border: 1px solid @brand-info;
+    &:hover {
+        box-shadow: 3px 5px 9px -1px rgba(0,0,0,.66);
+    }
+}
+
+ .col-one-third, .col-half {
+    width: 100%;
+    float: none;
+    .block;
+    .box-sizing;
+}
+
+@media only screen and (min-width: 400px) {
+    .col-one-third {
+        width: 30%;
+        float:left;
+    }
+    
+        .col-half {
+        width: 63%;
+        float: left;
+        padding-top: 50px;
+    }
+}
