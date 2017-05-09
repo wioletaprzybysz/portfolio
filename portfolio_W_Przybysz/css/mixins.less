@@ -1,0 +1,178 @@
+// Naglowki
+.header-mixin(@font-size;@line-height;@padding) {
+	font-size: @font-size;
+    line-height: @line-height;
+    padding: @padding;
+}
+
+// Duze litery
+.upper {
+	text-transform: uppercase;
+}
+
+.none {
+    text-decoration: none;
+}
+
+// Wyrownanie, pozycjonowanie itp.
+.center-text {
+	text-align: center;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.block {
+	display: block;
+}
+
+.dis_non {
+    display: none;
+}
+
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.clear {
+	clear: both;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.auto {
+    overflow: auto;
+}
+
+.radius {
+    border-radius: 100%;
+}
+
+.cursor{
+   cursor: pointer; 
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.max-width {
+    max-width: 60%;
+}
+
+.box-sizing {
+    box-sizing: border-box;
+}
+
+// ikony
+.icon(@width;@height;@margin;@display) {
+	
+    width: @width;
+    height: @height;
+    margin: @margin;
+    display: @display;
+}
+
+// cien 
+.shadow(@properties) {
+	box-shadow: @properties;
+}
+
+// przejscia
+.basic-transition {
+	transition: 0.5s;
+}
+
+// flexbox
+.flex-display {
+	display: flex;
+	display: -ms-flexbox;
+    display:  -webkit-flex
+}
+
+.flex-start {
+	justify-content: flex-start;
+	-ms-flex-pack: start;
+}
+
+.flex-align {
+	align-items: center;
+	-ms-flex-align: center;
+}
+
+.flex-wrap {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+}
+
+// przyciski
+.light {
+    margin: 39px 0px 0px 249px;
+}
+
+// paddingi, margin
+.padd-left {
+    padding-left: 15px;
+}
+
+.padd-bottom {
+    padding-bottom: 234px;
+}
+
+.banner-padding {
+    padding: 200px 350px 155px 350px;
+}
+
+.used-margin {
+    margin-top: 61px;
+    margin-bottom: 61px;
+}
+
+.used-padding {
+    padding: 0 6px;
+}
+
+// animacje 
+.writer{
+        padding: 0 0 30px 0;
+        text-align: center;
+        overflow: hidden; 
+        border-right: .15em solid #ffcc00;
+        white-space: nowrap; 
+        margin: 0 auto; 
+        letter-spacing: .10em; 
+          -webkit-animation: 
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end infinite; 
+                  animation: 
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end infinite;
+}
+
+.scale {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
