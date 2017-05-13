@@ -1,0 +1,214 @@
+/* O mnie*/
+.zdjecie_magdalena{
+    width: 357px;
+}
+
+#omnie {
+    .padding-top-bottom;
+    background-color: @alternate-bg;
+    p{
+        font-family:@font-family-sans-serif;
+        font-weight: 300;
+        color:@text-color;
+    }
+    strong{
+        color: @menu-text-color;
+    }
+    h5{
+        font-size: 14px
+    }
+ }
+
+
+ 
+.kolo img{
+    .absolute;
+    left: 0px;
+    top: -32px;
+    z-index: 1;
+    max-width: 215px;
+}
+
+.tekst_kolo{
+    .absolute;
+    left: 0px;
+    top: -32px;
+    z-index: 2;
+    color: darken(@menu-text-color, 10%);
+    .center-text;
+    margin-top: 45px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+
+/*#####################################################################################################################*/
+/*#####################################################################################################################*/
+/*Jak moge pomoc*/
+#pomoc {
+  .padding-top-bottom;
+    background:@alternate-bg;
+ }
+
+#psychoterapia h4  {
+    font-weight: 400;
+    font-family: @font-family-secondary;
+    color:@border-color-black;
+}
+#psychoterapia {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: @body-bg;
+    btn{
+        margin-top: 2rem;
+    }
+ }
+.black {
+    color: darken(@menu-text-color, 10%);
+    font-family:  @font-family-sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+#psychoterapia_pomoc {
+    padding-top: 2.5rem;
+    padding-bottom: 6rem;
+    background-color: @alternate-bg;
+ }
+#psychoterapia_pomoc h4  {
+    font-weight: 100;
+    font-family: @font-family-secondary;
+    color:@text-color;
+    font-size: 1.8rem;
+}
+#psychoterapia_pomoc h5  {
+    font-weight: 400;
+    font-family:  @font-family-secondary;
+    padding-top: 10px;
+    color:@border-color-black;
+    line-height: 2rem;
+}
+
+#psychoterapia_szkola{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: @body-bg;
+} 
+#psychoterapia_szkola h5  {
+    font-weight: 300;
+    font-family: @font-family-sans-serif;
+    color:@menu-text-color;
+}
+.szkola{
+    color:@border-color-black;
+    font-family:@font-family-sans-serif;
+    font-weight: 400;
+    
+}
+#psychoterapia_szkola .fa {
+    color: #0895D4;
+    font-size: 7rem;
+    text-shadow: 0px 0px 13px #999;
+}
+
+/*#####################################################################################################################*/
+/*#####################################################################################################################*/
+/* oferta*/
+#oferta {
+    .padding-top-bottom;
+    background-color:@alternate-bg;
+ }
+
+.szary .fa{
+    color: #0895D4;
+} 
+.bialy .fa {
+    color: #0895D4;
+}
+
+.top-seperator{
+    height: 80px;
+}
+
+.our-services{
+    .padding-top-bottom(6rem;3rem);
+}
+
+.our-services-box{
+    padding-top:40px;
+    max-width: 100%;
+    height: 400px;
+    color: @menu-text-color;
+    p{
+        font-weight: 300;
+    }
+    h5{
+        .header-mixin(@font-size-h5;400;@font-family-sans-serif);
+        .upper;
+        color: #777;
+    }
+    span{
+        .basic-border(1px;solid;@border-color);
+        .icon-span-round(88px);
+        margin-bottom: 30px;
+        i{
+            .relative;
+            .icon(@menu-text-color;32px;88px);
+            &:after{
+                .square(88px);
+                content: "";
+                .inline-block;
+                line-height: 88px;
+                border-radius: 50%;
+                background: @bright-text-color;
+                opacity: 0;
+                position:absolute;
+                z-index: -1;
+                top: -2%;
+                left: -80%;
+                transform: scale(0);
+                transition: transform 0.3s, opacity 0.3s;
+            
+            }
+        }
+    }
+    &:hover span{
+        border: transparent;
+        i{
+            color: @alternate-bg;
+        }
+        i:after{
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+}
+// odstepy
+.malzenstwa{
+    height: 33px;
+}
+.terapia{
+    height: 77px;
+}
+.psychologiczna{
+    height: 11px;
+}
+.grupowa{
+    height: 43px
+}
+/*##
+###################################################################################################################*/
+/*#####################################################################################################################*/
+/* kontakt*/
+#contact {
+    .padding-top-bottom;
+    background: @alternate-bg;
+ }
+#contact h5{
+    font-weight: 500;
+    font-family: @font-family-sans-serif;
+  
+}
+
+
+
+/*#####################################################################################################################*/
