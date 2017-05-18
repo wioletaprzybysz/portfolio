@@ -1,0 +1,129 @@
+// Naglowki
+.header-mixin(@font-size;@font-weight;@font-family-secondary) {
+	font-size: @font-size;
+	font-weight: @font-weight;
+    font-family: @font-family-secondary
+}
+// male litery
+.low{
+    text-transform: lowercase;
+}
+
+// duzr litery
+.upper{
+    text-transform:uppercase;
+}
+
+// Wyrownanie, pozycjonowanie itp.
+.center-text {
+	text-align: center;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.v-align {
+	vertical-align: middle;
+}
+
+.block {
+	display: block;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.clear {
+	clear: both;
+}
+
+// Listy 
+.check-list {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-left: 0;
+    line-height: 2.9rem;
+    color: #777777;;
+}
+
+.short_list {
+    margin: 21px 0;
+   .block;
+}
+
+
+.fa(@color;@font-size;) {
+	color: @color;
+	font-size: @font-size;
+	
+}
+
+li .fa{
+    font-size: 12px; 
+    color: @color
+}
+
+
+
+// przejscia
+.basic-transition {
+	transition: all 0.2s ease-in-out;
+}
+
+// Obrazy slidera
+.bg-image(@url) {
+	background-image: @url;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+//padding
+// Padding dol gora
+.padding-top-bottom {
+	padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+// Padding dol gora
+.padding-top-bottom(@p-top;@p-bottom) {
+	padding: @p-top 0 @p-bottom;
+}
+.padding-pasek{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #e6e6e6;
+    
+    
+}
+
+// Ramki
+.basic-border(@width;@style;@color: @border-color) {
+	border-width: @width;
+	border-style: @style;
+	border-color: @color;
+}
+// ikony
+
+.icon-span-round(@dimension) {
+	.inline-block;
+	border-radius: 50%;
+	.center-text;
+	width: @dimension;
+	height: @dimension;
+}
+
+.icon(@color;@font-size;@line-height: @line-height-base) {
+	color: @color;
+	font-size: @font-size;
+	line-height: @line-height;
+}
+
+

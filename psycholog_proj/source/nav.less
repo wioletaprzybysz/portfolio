@@ -1,0 +1,93 @@
+/* Główne*/
+.navbar {
+  background-color: transparent;
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: @font-family-secondary;
+
+}
+.navbar-default {
+   border-color: transparent;
+   box-shadow: none;
+}
+
+.navbar-outer{
+  width: 1200px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color:@border-color;
+  margin-left: 5px;
+  border-bottom: 2px solid transparent;
+  line-height: 1rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  .block;
+  color: @alternate-bg;
+  .border-bottom;
+  line-height: 1rem;
+  transition: all 0.7s ease;
+    
+}
+
+.navbar-default .navbar-nav > .active > a {
+  .block;
+  .border-bottom;
+  background-color: transparent;
+    
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  color: @footer-text-color;
+  border-bottom: 2px solid transparent;
+  border-color: @bright-text-color;
+     
+}
+
+.logo {
+  .block;
+  float: none;
+  margin-top: 1.6rem;
+  margin-left: 1rem;
+  color: #bbbbbb;
+  font-size: 1.9rem;
+} 
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { 
+    background-color: transparent;
+    outline: none ;
+    -moz-outline: none;
+    }
+a:hover, a:active, a:focus {
+     outline: none !important;
+    -moz-outline: none !important;
+}
+
+/* Menu Górne*/
+@media(min-width:767px) {
+    .navbar {
+        padding: 10px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+/*#####################################################################################################################*/
+/*#####################################################################################################################*/
+/// kolor przycisku menu na najmniejszym rozmiarze
+.navbar-toggle {
+    background-color: @alternate-bg;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background-color: @border-color;
+}
+
