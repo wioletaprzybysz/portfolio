@@ -1,0 +1,70 @@
+#portfolio {
+    background-color: @portfolio-color;
+    top: 1200px;
+}
+
+.project-content-box {
+    .flex-display;
+    .flex-wrap;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.project-content {
+    .flex-display;
+     margin: 0 54px 29px 50px;
+    background-color: @alternate-bg;
+    padding: 11px 50px;
+    &:hover{
+        background-color: @color-box;
+        .basic-transition;
+    }
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 138px;
+    background-color: #d8d2d2;
+    color: #000;
+    text-align: center;
+//    border-radius: 6px;
+    padding: 8px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+   
+.project {
+    margin: 30px 5px;
+}
+
+#portfolio .fa {
+    font-size: 24px;
+    color: @icon-color;
+    &:hover {
+        color: @yellow-color;
+        .basic-transition;
+    }
+    
+}
+
+@media only screen and (min-width: 400px) {
+    .project-content {
+        margin: 0 54px 29px 0;
+    }
+}
