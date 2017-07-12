@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Helvetica;
+    text-transform: uppercase;
+    color: #a8a6a6;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding-left: 8em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+ul li:nth-child(5n+5){
+    background-color: #9ef7f7;
+}
+
+ul li:nth-child(5n+1){
+    background-color: #022929;
+}
+
+ul li:nth-child(5n+2){
+    background-color: #034545;
+}
+
+ul li:nth-child(5n+3){
+    background-color: #056969;
+}
+
+ul li:nth-child(5n+4){
+    background-color: #05a2a2;
+}
+
+ul li:hover{
+    background-color: #ffffff;
+    padding-bottom: 8em;
+    cursor: pointer;
+}
